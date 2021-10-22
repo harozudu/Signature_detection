@@ -1,6 +1,7 @@
 # Signature_detection
-The model is able to find the logo and signature in a document.
 
+
+At first, the document classification is done trough a CNN. After that a YoloV5 model can be used to find the signature and logo in the document as it is shown in the images below.
 
 
 <img src="https://user-images.githubusercontent.com/65071575/138444188-f40bb91d-9bd9-4d08-b6d3-b178d02ca5b1.png" width="350" height="500"> <img src="https://user-images.githubusercontent.com/65071575/138444192-3b67c7e5-824b-4f78-beeb-13b76db9f237.png" width="350" height="500">
